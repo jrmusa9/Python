@@ -51,4 +51,3 @@ def names(list):
 
 names(users)
 
-
