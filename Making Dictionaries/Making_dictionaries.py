@@ -7,7 +7,7 @@ def concat(a,b):
     if len(a)>len(b) or len(a)==len(b):
         return zip(a,b)
     else:
-        return zip(b,a)
+        return dict(zip(b,a))
 
 print concat(name,fav_animal)
 
